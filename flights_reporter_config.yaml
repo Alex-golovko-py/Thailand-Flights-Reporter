@@ -1,0 +1,140 @@
+# ClickHouse connection
+clickhouse:
+  host: "91.206.15.148"
+  port: 8123
+  user: "user1"
+  password: "agoyhtru56w646436"
+  database: "lumegroup"
+  table: "phuket_flights_first_block"
+
+# Telegram bot
+telegram:
+  token: "8909490179:AAEwIPCvh7X_Q_zLCpjppGizp4MCmHkaZt4"
+  chat_id: 183267678
+  leads_chat_id: -5201981082
+
+# Report settings
+report:
+  weekday: 0
+  time: "08:20"
+  timezone: "Europe/Moscow"
+  
+  arrival_countries:
+    - "Thailand"
+    - "Таиланд"
+  
+  flight_type: "Прилёт"
+  
+  seasonal_averages:
+    high_season: 850
+    low_season: 620
+  
+  top_countries_limit: 3
+  exclude_thailand_from_top: true
+
+# Country emoji mapping (для отображения флагов)
+country_emoji:
+  Russia: "🇷🇺"
+  Thailand: "🇹🇭"
+  China: "🇨🇳"
+  Kazakhstan: "🇰🇿"
+  UAE: "🇦🇪"
+  Malaysia: "🇲🇾"
+  Singapore: "🇸🇬"
+  India: "🇮🇳"
+  "South Korea": "🇰🇷"
+  Korea: "🇰🇷"
+  Japan: "🇯🇵"
+  Germany: "🇩🇪"
+  France: "🇫🇷"
+  "United Kingdom": "🇬🇧"
+  UK: "🇬🇧"
+  USA: "🇺🇸"
+  Australia: "🇦🇺"
+  Myanmar: "🇲🇲"
+  Cambodia: "🇰🇭"
+  Uzbekistan: "🇺🇿"
+  Mongolia: "🇲🇳"
+  Qatar: "🇶🇦"
+  Indonesia: "🇮🇩"
+  Turkey: "🇹🇷"
+  Vietnam: "🇻🇳"
+  Switzerland: "🇨🇭"
+  Oman: "🇴🇲"
+  Finland: "🇫🇮"
+  Sweden: "🇸🇪"
+  Taiwan: "🇹🇼"
+  Israel: "🇮🇱"
+  Bulgaria: "🇧🇬"
+  Norway: "🇳🇴"
+  Italy: "🇮🇹"
+  Poland: "🇵🇱"
+  Iran: "🇮🇷"
+  # Русские названия (если приходят из базы)
+  Китай: "🇨🇳"
+  Таиланд: "🇹🇭"
+  Индия: "🇮🇳"
+  Мьянма: "🇲🇲"
+  Малайзия: "🇲🇾"
+  "Китай (Гонконг)": "🇭🇰"
+  Германия: "🇩🇪"
+  ОАЭ: "🇦🇪"
+  Россия: "🇷🇺"
+  Камбоджа: "🇰🇭"
+  Узбекистан: "🇺🇿"
+  Австралия: "🇦🇺"
+  Казахстан: "🇰🇿"
+  "Южная Корея": "🇰🇷"
+  Монголия: "🇲🇳"
+  Катар: "🇶🇦"
+  Индонезия: "🇮🇩"
+  Сингапур: "🇸🇬"
+  Турция: "🇹🇷"
+  Вьетнам: "🇻🇳"
+  Швейцария: "🇨🇭"
+  Оман: "🇴🇲"
+  Франция: "🇫🇷"
+  Финляндия: "🇫🇮"
+  Швеция: "🇸🇪"
+  Тайвань: "🇹🇼"
+  Израиль: "🇮🇱"
+  Болгария: "🇧🇬"
+  Норвегия: "🇳🇴"
+  Италия: "🇮🇹"
+  Польша: "🇵🇱"
+  Иран: "🇮🇷"
+
+# Country name mapping (русские → английские)
+country_name_en:
+  Китай: "China"
+  Таиланд: "Thailand"
+  Индия: "India"
+  Мьянма: "Myanmar"
+  Малайзия: "Malaysia"
+  Китай (Гонконг): "Hong Kong"
+  Германия: "Germany"
+  ОАЭ: "UAE"
+  Россия: "Russia"
+  Камбоджа: "Cambodia"
+  Узбекистан: "Uzbekistan"
+  Австралия: "Australia"
+  Казахстан: "Kazakhstan"
+  Южная Корея: "South Korea"
+  Монголия: "Mongolia"
+  Катар: "Qatar"
+  Индонезия: "Indonesia"
+  Сингапур: "Singapore"
+  Турция: "Turkey"
+  Вьетнам: "Vietnam"
+  Швейцария: "Switzerland"
+  Оман: "Oman"
+  Франция: "France"
+  Финляндия: "Finland"
+  Швеция: "Sweden"
+  Тайвань: "Taiwan"
+  Израиль: "Israel"
+  Болгария: "Bulgaria"
+  Норвегия: "Norway"
+  Италия: "Italy"
+  Польша: "Poland"
+  Иран: "Iran"
